@@ -1,0 +1,66 @@
+python-mccabe (0.6.1-3) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Use https protocol in Format field
+  * d/control: Remove ancient X-Python-Version field
+  * d/control: Remove ancient X-Python3-Version field
+  * Convert git repository from git-dpm to gbp layout
+  * Use debhelper-compat instead of debian/compat.
+
+  [ Sandro Tosi ]
+  * Drop python2 support; Closes: #937910
+
+ -- Sandro Tosi <morph@debian.org>  Sat, 15 Feb 2020 16:55:46 -0500
+
+python-mccabe (0.6.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Uploading to unstable
+
+ -- Ondřej Nový <onovy@debian.org>  Tue, 20 Jun 2017 10:33:40 +0200
+
+python-mccabe (0.6.1-1) experimental; urgency=medium
+
+  * Team upload.
+  * New upstream release
+
+ -- Ondřej Nový <onovy@debian.org>  Tue, 21 Feb 2017 10:50:38 +0100
+
+python-mccabe (0.5.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+
+ -- Ondřej Nový <onovy@debian.org>  Tue, 21 Feb 2017 10:49:28 +0100
+
+python-mccabe (0.5.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * Fixed VCS URL (https)
+  * Bumped required version of Python to 2.7 / 3.3
+  * wrap-and-sort -t -a
+  * Added dh-python, python{3,}-pytest and python{3,}-pytest-runner to B-D
+  * Enabled autopkgtest-pkg-python testsuite
+  * Standards-Version is 3.9.8 now (no changes needed)
+
+ -- Ondřej Nový <onovy@debian.org>  Sun, 07 Aug 2016 22:45:20 +0200
+
+python-mccabe (0.2.1-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ Jakub Wilk ]
+  * Use canonical URIs for Vcs-* fields.
+
+  [ Jackson Doak ]
+  * New upstream release
+
+ -- Jackson Doak <noskcaj@ubuntu.com>  Wed, 06 Nov 2013 07:14:44 +1100
+
+python-mccabe (0.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #702042)
+
+ -- Chris Johnston <chrisjohnston@ubuntu.com>  Fri, 01 Mar 2013 22:47:20 -0500
