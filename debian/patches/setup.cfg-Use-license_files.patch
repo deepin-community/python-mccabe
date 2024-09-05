@@ -1,0 +1,19 @@
+From: Carsten Schoenert <c.schoenert@t-online.de>
+Date: Sun, 4 Dec 2022 10:23:29 +0100
+Subject: setup.cfg: Use license_files
+
+Forwarded: not-needed
+---
+ setup.cfg | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/setup.cfg b/setup.cfg
+index ed8a958..c2d7a6f 100644
+--- a/setup.cfg
++++ b/setup.cfg
+@@ -2,4 +2,4 @@
+ universal = 1
+ 
+ [metadata]
+-license_file = LICENSE
++license_files = LICENSE

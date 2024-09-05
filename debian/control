@@ -1,22 +1,23 @@
 Source: python-mccabe
 Section: python
 Priority: optional
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Uploaders: Chris Johnston <chrisjohnston@ubuntu.com>,
-Build-Depends: debhelper-compat (= 9),
-               dh-python,
+Build-Depends: debhelper-compat (= 13),
+               dh-sequence-python3,
                python3-all,
-               python3-pytest,
-               python3-pytest-runner,
+               python3-pytest <!nocheck>,
                python3-setuptools,
-Standards-Version: 3.9.8
+Standards-Version: 4.6.1
+Rules-Requires-Root: no
 Homepage: https://github.com/flintwork/mccabe
-Vcs-Browser: https://salsa.debian.org/python-team/modules/python-mccabe
-Vcs-Git: https://salsa.debian.org/python-team/modules/python-mccabe.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-mccabe
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-mccabe.git
 Testsuite: autopkgtest-pkg-python
 
 Package: python3-mccabe
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends},
          ${python3:Depends},
 Description: Python code complexity checker (Python 3)
